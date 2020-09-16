@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+          fetch="https://github.com/" />
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-17.1" />
+  <remote name="cooluc"
+          fetch="https://git.cooluc.com" />
+</manifest>

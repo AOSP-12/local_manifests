@@ -1,0 +1,38 @@
+# Android Open Source Project #
+
+### 用你知道的方式把AOSP源码同步下来 ###
+
+```bash
+
+# Google Code
+
+repo init -u https://android.googlesource.com/platform/manifest -b android-11.0.0_r3 --depth=1
+
+git clone https://github.com/AOSP-10/local_manifests .repo/local_manifests -b 11
+
+# 同步源码
+
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
+### 编译 ###
+
+```bash
+
+# Set up environment
+$ . build/envsetup.sh
+
+# Choose a target
+$ lunch aosp_$device-userdebug
+
+# Build the code
+$ brunch $device
+```
+
+### 已有源码切换分支 ###
+
+```bash
+
+$ repo init -b android-11.0.0_r3
+
+```

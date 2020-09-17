@@ -13,8 +13,8 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" revision="11" remote="github" />
   <project path="hardware/qcom-caf/msm8998/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" revision="11" remote="github" />
   <project path="hardware/qcom-caf/msm8998/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" revision="11" remote="github" />
-  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
-  <project path="hardware/qcom-caf/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
+  <project path="hardware/qcom-caf/thermal" name="AOSP-11/hardware_qcom_thermal" remote="lineage" />
+  <project path="hardware/qcom-caf/wlan" name="AOSP-11/hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" revision="11" remote="github" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-17.1" remote="github" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="github" revision="lineage-17.1" />
@@ -60,7 +60,7 @@
   <project path="build/blueprint" name="AOSP-11/build_blueprint" revision="11" remote="github" />
   <project path="vendor/aosp" name="AOSP-11/vendor_aosp" revision="11" remote="github" />
 
-  <!-- external -->
+  <!-- External repos -->
   <project path="external/guice" name="AOSP-11/external_guice" remote="github" revision="11" />
   <project path="external/selinux" name="AOSP-11/external_selinux" revision="11" remote="github" />
   <project path="external/tinycompress" name="AOSP-11/external_tinycompress" revision="11" remote="github" />
@@ -69,25 +69,42 @@
   <project path="hardware/custom/interfaces" name="AOSP-11/hardware_custom_interfaces" revision="11" remote="github" />
   <project path="hardware/libhardware" name="AOSP-11/hardware_libhardware" revision="11" remote="github" />
 
-  <!-- frameworks -->
+  <!-- Local_manifests -->
+  <project path="local_manifests" name="AOSP-11/local_manifests" revision="11" remote="github" >
+    <linkfile src="sync.sh" dest="sync.sh" />
+  </project>
+
+  <!-- Framework repos -->
   <project path="frameworks/av" name="AOSP-11/frameworks_av" revision="11" remote="github" />
+  <project path="frameworks/base" name="AOSP-11/frameworks_base" revision="11" remote="github" />
   <project path="frameworks/native" name="AOSP-11/frameworks_native" revision="11" remote="github" />
-
-  <!-- prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="AOSP-11/prebuilts_abi-dumps_vndk" revision="11" remote="github" />
-
-  <!-- packages -->
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" revision="refs/tags/android-10.0.0_r46" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-10.0.0_r46" />
-  <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" remote="github" revision="11" />
+  <project path="frameworks/opt/telephony" name="AOSP-11/frameworks_opt_telephony" revision="11" remote="github" />
 
-  <!-- recovery -->
+  <!-- Prebuilts Repos -->
+  <project path="prebuilts/abi-dumps/vndk" name="AOSP-11/prebuilts_abi-dumps_vndk" revision="11" remote="github" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/DeskClock" name="AOSP-11/packages_apps_DeskClock" revision="11" remote="github" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-10.0.0_r46" />
+  <project path="packages/apps/Jelly" name="AOSP-11/packages_apps_Jelly" revision="11" remote="github" />
+  <project path="packages/apps/Launcher3" name="AOSP-11/packages_apps_Launcher3" revision="11" remote="github" />
+  <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" revision="11" remote="github" />
+  <project path="packages/apps/ThemePicker" name="AOSP-11/packages_apps_ThemePicker" revision="11" remote="github" />
+
+  <!-- Recovery Repos -->
   <project path="bootable/recovery" name="AOSP-11/bootable_recovery" revision="11" remote="github" />
 
-  <!-- tools -->
+  <!-- Tools Repos -->
   <project path="tools/metalava" name="AOSP-11/tools_metalava" revision="11" remote="github" />
 
-  <!-- system -->
+  <!-- System Repos -->
   <project path="system/bt" name="AOSP-11/system_bt" revision="11" remote="github" />
   <project path="system/core" name="AOSP-11/system_core" revision="11" remote="github" />
   <project path="system/incremental_delivery" name="AOSP-11/system_incremental_delivery" revision="11" remote="github" />

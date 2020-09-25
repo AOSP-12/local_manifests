@@ -79,6 +79,7 @@
   <project path="frameworks/base" name="AOSP-11/frameworks_base" revision="11" remote="github" />
   <project path="frameworks/native" name="AOSP-11/frameworks_native" revision="11" remote="github" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" revision="refs/tags/android-10.0.0_r46" />
+  <project path="frameworks/opt/net/wifi" name="AOSP-11/frameworks_opt_net_wifi" revision="11" remote="github" />
   <project path="frameworks/opt/telephony" name="AOSP-11/frameworks_opt_telephony" revision="11" remote="github" />
 
   <!-- Prebuilts Repos -->
@@ -92,11 +93,12 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/DeskClock" name="AOSP-11/packages_apps_DeskClock" revision="11" remote="github" />
+  <project path="packages/apps/Dialer" name="AOSP-11/packages_apps_Dialer" revision="11" remote="github" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-10.0.0_r46" />
   <project path="packages/apps/Jelly" name="AOSP-11/packages_apps_Jelly" revision="11" remote="github" />
   <project path="packages/apps/Launcher3" name="AOSP-11/packages_apps_Launcher3" revision="11" remote="github" />
-  <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" revision="11" remote="github" />
   <project path="packages/apps/ThemePicker" name="AOSP-11/packages_apps_ThemePicker" revision="11" remote="github" />
+  <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" revision="11" remote="github" />
 
   <!-- Recovery Repos -->
   <project path="bootable/recovery" name="AOSP-11/bootable_recovery" revision="11" remote="github" />

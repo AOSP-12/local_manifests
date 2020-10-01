@@ -96,6 +96,7 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-10.0.0_r46" />
   <project path="packages/apps/Jelly" name="AOSP-11/packages_apps_Jelly" revision="11" remote="github" />
   <project path="packages/apps/Launcher3" name="AOSP-11/packages_apps_Launcher3" revision="11" remote="github" />
+  <project path="packages/apps/Nfc" name="AOSP-11/packages_apps_Nfc" revision="11" remote="github" />
   <project path="packages/apps/ThemePicker" name="AOSP-11/packages_apps_ThemePicker" revision="11" remote="github" />
   <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" revision="11" remote="github" />
   <project path="packages/overlays/Themes" name="AOSP-10/packages_overlays_Themes" revision="10" remote="github" />

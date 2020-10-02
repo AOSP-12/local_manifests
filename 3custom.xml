@@ -60,7 +60,7 @@
   <project path="vendor/aosp" name="AOSP-11/vendor_aosp" revision="11" remote="github" />
 
   <!-- External repos -->
-  <project path="external/guice" name="AOSP-11/external_guice" remote="github" revision="11" />
+  <!--project path="external/guice" name="AOSP-11/external_guice" remote="github" revision="11" /-->
   <project path="external/selinux" name="AOSP-11/external_selinux" revision="11" remote="github" />
   <project path="external/tinycompress" name="AOSP-11/external_tinycompress" revision="11" remote="github" />
 
@@ -105,12 +105,12 @@
   <project path="bootable/recovery" name="AOSP-11/bootable_recovery" revision="11" remote="github" />
 
   <!-- Tools Repos -->
-  <project path="tools/metalava" name="AOSP-11/tools_metalava" revision="11" remote="github" />
+  <!--project path="tools/metalava" name="AOSP-11/tools_metalava" revision="11" remote="github" /-->
 
   <!-- System Repos -->
   <project path="system/bt" name="AOSP-11/system_bt" revision="11" remote="github" />
   <project path="system/core" name="AOSP-11/system_core" revision="11" remote="github" />
-  <project path="system/incremental_delivery" name="AOSP-11/system_incremental_delivery" revision="11" remote="github" />
+  <!--project path="system/incremental_delivery" name="AOSP-11/system_incremental_delivery" revision="11" remote="github" /-->
   <project path="system/sepolicy" name="AOSP-11/system_sepolicy" revision="11" remote="github" />
 
 </manifest>

@@ -66,6 +66,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="AOSP-11/hardware_custom_interfaces" revision="11" remote="github" />
+  <project path="hardware/interfaces" name="AOSP-11/hardware_interfaces" revision="11" remote="github" />
   <project path="hardware/libhardware" name="AOSP-11/hardware_libhardware" revision="11" remote="github" />
 
   <!-- Local_manifests -->
@@ -110,6 +111,7 @@
   <!-- System Repos -->
   <project path="system/bt" name="AOSP-11/system_bt" revision="11" remote="github" />
   <project path="system/core" name="AOSP-11/system_core" revision="11" remote="github" />
+  <project path="system/vold" name="AOSP-11/system_vold" revision="11" remote="github" />
   <!--project path="system/incremental_delivery" name="AOSP-11/system_incremental_delivery" revision="11" remote="github" /-->
   <project path="system/sepolicy" name="AOSP-11/system_sepolicy" revision="11" remote="github" />
 

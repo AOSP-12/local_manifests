@@ -68,6 +68,7 @@
   <remove-project name="platform/build/soong" />
 
   <!-- Hardware repos -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
@@ -129,6 +130,7 @@
   <!-- System Repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
   <!--remove-project name="platform/system/incremental_delivery" /-->
   <remove-project name="platform/system/sepolicy" />
 

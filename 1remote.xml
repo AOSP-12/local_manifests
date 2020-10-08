@@ -4,7 +4,7 @@
           fetch="https://github.com/" />
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-17.1" />
+          revision="lineage-18.0" />
   <remote name="cooluc"
           fetch="https://git.cooluc.com" />
 </manifest>

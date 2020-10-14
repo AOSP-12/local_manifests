@@ -115,5 +115,6 @@
   <project path="system/vold" name="AOSP-11/system_vold" revision="11" remote="github" />
   <!--project path="system/incremental_delivery" name="AOSP-11/system_incremental_delivery" revision="11" remote="github" /-->
   <project path="system/sepolicy" name="AOSP-11/system_sepolicy" revision="11" remote="github" />
+  <project path="system/update_engine" name="AOSP-11/system_update_engine" revision="11" remote="github" />
 
 </manifest>

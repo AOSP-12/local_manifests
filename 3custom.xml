@@ -100,6 +100,7 @@
   <project path="packages/apps/Launcher3" name="AOSP-11/packages_apps_Launcher3" revision="11" remote="github" />
   <project path="packages/apps/Nfc" name="AOSP-11/packages_apps_Nfc" revision="11" remote="github" />
   <project path="packages/apps/Settings" name="AOSP-11/packages_apps_Settings" revision="11" remote="github" />
+  <project path="packages/apps/SettingsIntelligence" name="AOSP-11/packages_apps_SettingsIntelligence" revision="11" remote="github" />
   <project path="packages/apps/ThemePicker" name="AOSP-11/packages_apps_ThemePicker" revision="11" remote="github" />
   <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" revision="11" remote="github" />
   <project path="packages/overlays/Themes" name="AOSP-10/packages_overlays_Themes" revision="10" remote="github" />

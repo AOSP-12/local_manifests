@@ -122,6 +122,5 @@
 
   <!-- vendor apps -->
   <project path="vendor/apps/FaceUnlock" name="AOSP-11/vendor_apps_FaceUnlock" revision="11" remote="github" />
-  <project path="vendor/apps/Gallery2" name="AOSP-11/vendor_apps_Gallery2" revision="11" remote="github" />
 
 </manifest>

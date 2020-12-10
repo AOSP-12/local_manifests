@@ -104,7 +104,6 @@
   <project path="packages/apps/SettingsIntelligence" name="AOSP-11/packages_apps_SettingsIntelligence" revision="11" remote="github" />
   <project path="packages/apps/ThemePicker" name="AOSP-11/packages_apps_ThemePicker" revision="11" remote="github" />
   <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" revision="11" remote="github" />
-  <project path="packages/overlays/Themes" name="AOSP-10/packages_overlays_Themes" revision="10" remote="github" />
 
   <!-- Recovery Repos -->
   <project path="bootable/recovery" name="AOSP-11/bootable_recovery" revision="11" remote="github" />

@@ -12,17 +12,17 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" revision="11" remote="github" />
   <project path="hardware/qcom-caf/msm8998/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" revision="11" remote="github" />
   <project path="hardware/qcom-caf/msm8998/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" revision="11" remote="github" />
-  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" revision="lineage-17.1" remote="github" />
+  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" remote="github" />
   <project path="hardware/qcom-caf/wlan" name="AOSP-11/hardware_qcom-caf_wlan" revision="11" remote="github" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="AOSP-11/vendor_codeaurora_telephony" revision="11" remote="github" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" revision="lineage-18.0" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" revision="lineage-18.0" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" revision="lineage-18.0" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lineage" revision="lineage-18.0" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
   <project path="vendor/qcom/opensource/dataservices" name="AOSP-11/vendor_qcom_opensource_dataservices" revision="11" remote="github" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -60,8 +60,6 @@
   <project path="vendor/aosp" name="AOSP-11/vendor_aosp" revision="11" remote="github" />
 
   <!-- External repos -->
-  <!--project path="external/guice" name="AOSP-11/external_guice" remote="github" revision="11" /-->
-  <!--project path="external/selinux" name="AOSP-11/external_selinux" revision="11" remote="github" /-->
   <project path="external/tinycompress" name="AOSP-11/external_tinycompress" revision="11" remote="github" />
 
   <!-- Hardware repos -->
@@ -83,12 +81,10 @@
   <project path="frameworks/opt/telephony" name="AOSP-11/frameworks_opt_telephony" revision="11" remote="github" />
 
   <!-- Prebuilts Repos -->
-  <!--project path="prebuilts/abi-dumps/vndk" name="AOSP-11/prebuilts_abi-dumps_vndk" revision="11" remote="github" /-->
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" revision="lineage-17.1" remote="lineage" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" revision="lineage-17.1" remote="lineage" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" revision="lineage-17.1" remote="lineage" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" revision="lineage-17.1" remote="lineage" clone-depth="1" />
-  <project path="prebuilts/r8" name="android_prebuilts_r8" revision="lineage-17.1" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- Packages repos -->
@@ -108,14 +104,10 @@
   <!-- Recovery Repos -->
   <project path="bootable/recovery" name="AOSP-11/bootable_recovery" revision="11" remote="github" />
 
-  <!-- Tools Repos -->
-  <!--project path="tools/metalava" name="AOSP-11/tools_metalava" revision="11" remote="github" /-->
-
   <!-- System Repos -->
   <project path="system/bt" name="AOSP-11/system_bt" revision="11" remote="github" />
   <project path="system/core" name="AOSP-11/system_core" revision="11" remote="github" />
   <project path="system/vold" name="AOSP-11/system_vold" revision="11" remote="github" />
-  <!--project path="system/incremental_delivery" name="AOSP-11/system_incremental_delivery" revision="11" remote="github" /-->
   <project path="system/sepolicy" name="AOSP-11/system_sepolicy" revision="11" remote="github" />
   <project path="system/update_engine" name="AOSP-11/system_update_engine" revision="11" remote="github" />
 

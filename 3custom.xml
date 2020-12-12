@@ -12,7 +12,7 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" revision="11" remote="github" />
   <project path="hardware/qcom-caf/msm8998/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" revision="11" remote="github" />
   <project path="hardware/qcom-caf/msm8998/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" revision="11" remote="github" />
-  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" remote="github" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="AOSP-11/hardware_qcom-caf_wlan" revision="11" remote="github" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="AOSP-11/vendor_codeaurora_telephony" revision="11" remote="github" />

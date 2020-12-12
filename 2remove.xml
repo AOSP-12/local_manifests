@@ -108,8 +108,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- External repos -->
-  <!--remove-project name="platform/external/guice" /-->
-  <!--remove-project name="platform/external/selinux" /-->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->

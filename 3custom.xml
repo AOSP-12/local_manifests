@@ -60,6 +60,7 @@
   <project path="vendor/aosp" name="AOSP-11/vendor_aosp" revision="11" remote="github" />
 
   <!-- External repos -->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" revision="master" remote="lineage" />
   <project path="external/tinycompress" name="AOSP-11/external_tinycompress" revision="11" remote="github" />
 
   <!-- Hardware repos -->

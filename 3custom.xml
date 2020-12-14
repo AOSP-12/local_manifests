@@ -89,6 +89,7 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/CarrierConfig" name="AOSP-11/packages_apps_CarrierConfig" revision="11" remote="github" />
   <project path="packages/apps/DeskClock" name="AOSP-11/packages_apps_DeskClock" revision="11" remote="github" />
   <project path="packages/apps/Dialer" name="AOSP-11/packages_apps_Dialer" revision="11" remote="github" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-10.0.0_r46" />

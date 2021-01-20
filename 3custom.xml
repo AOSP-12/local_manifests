@@ -118,6 +118,6 @@
   <project path="system/update_engine" name="AOSP-11/system_update_engine" revision="11" remote="github" />
 
   <!-- vendor apps -->
-  <project path="vendor/apps/FaceUnlock" name="AOSP-11/vendor_apps_FaceUnlock" revision="11" remote="github" />
+  <project path="vendor/apps/FaceUnlock" name="vendor_apps_FaceUnlock" revision="11" remote="gitea" />
 
 </manifest>

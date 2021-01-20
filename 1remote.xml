@@ -5,4 +5,6 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
+  <remote name="gitea"
+          fetch="https://gitea.com/sbwml" />
 </manifest>

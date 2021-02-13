@@ -58,6 +58,7 @@
   <project path="build/blueprint" name="AOSP-11/build_blueprint" revision="11" remote="github" />
   <project path="device/custom/sepolicy" name="AOSP-11/device_custom_sepolicy" revision="11" remote="github" />
   <project path="vendor/aosp" name="AOSP-11/vendor_aosp" revision="11" remote="github" />
+  <project path="vendor/support" name="AOSP-11/vendor_support" revision="11" remote="github" />
 
   <!-- External repos -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" revision="master" remote="lineage" />
@@ -106,6 +107,7 @@
   <project path="packages/apps/Settings" name="AOSP-11/packages_apps_Settings" revision="11" remote="github" />
   <project path="packages/apps/SettingsIntelligence" name="AOSP-11/packages_apps_SettingsIntelligence" revision="11" remote="github" />
   <project path="packages/apps/ThemePicker" name="AOSP-11/packages_apps_ThemePicker" revision="11" remote="github" />
+  <project path="packages/apps/TouchGestures" name="AOSP-11/packages_apps_TouchGestures" revision="11" remote="github" />
   <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" revision="11" remote="github" />
 
   <!-- Recovery Repos -->

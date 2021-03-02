@@ -21,7 +21,7 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lineage" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="AOSP-11/vendor_qcom_opensource_cryptfs_hw" revision="11" remote="github" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSP-11/vendor_qcom_opensource_data-ipa-cfg-mgr" revision="11" remote="github" />
   <project path="vendor/qcom/opensource/dataservices" name="AOSP-11/vendor_qcom_opensource_dataservices" revision="11" remote="github" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >

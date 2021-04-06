@@ -6,7 +6,7 @@
 
 # Google Code
 
-repo init -u https://android.googlesource.com/platform/manifest -b android-11.0.0_r32 --depth=1
+repo init -u https://android.googlesource.com/platform/manifest -b android-11.0.0_r34 --depth=1
 
 git clone https://github.com/AOSP-11/local_manifests .repo/local_manifests -b 11
 
@@ -33,6 +33,6 @@ $ brunch $device
 
 ```bash
 
-$ repo init -b android-11.0.0_r32
+$ repo init -b android-11.0.0_r34
 
 ```

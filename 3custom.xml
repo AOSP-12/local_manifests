@@ -85,7 +85,7 @@
   <project path="frameworks/opt/telephony" name="AOSP-11/frameworks_opt_telephony" revision="11" remote="github" />
 
   <!-- Prebuilts Repos -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r412851" name="AOSP-11/prebuilts_clang_host_linux-x86_clang-r412851" revision="11" remote="github" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183c" name="AOSP-11/prebuilts_clang_host_linux-x86_clang-r416183c" revision="11" remote="github" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />

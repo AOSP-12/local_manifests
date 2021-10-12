@@ -41,7 +41,7 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="lineage" />
 
   <!-- General repos -->
-  <project path="build/make" name="AOSP-11/build" revision="11" remote="github">
+  <project path="build/make" name="AOSP-12/build" revision="12" remote="vm">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -50,42 +50,40 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="AOSP-11/build_soong" revision="11" remote="github" >
+  <project path="build/soong" name="AOSP-12/build_soong" revision="12" remote="vm" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bionic" name="AOSP-11/bionic" revision="11" remote="github" />
-  <project path="build/blueprint" name="AOSP-11/build_blueprint" revision="11" remote="github" />
-  <project path="device/custom/sepolicy" name="AOSP-11/device_custom_sepolicy" revision="11" remote="github" />
-  <project path="vendor/aosp" name="AOSP-11/vendor_aosp" revision="11" remote="github" />
-  <project path="vendor/support" name="AOSP-11/vendor_support" revision="11" remote="github" />
+  <project path="bionic" name="AOSP-12/bionic" revision="12" remote="vm" />
+  <project path="build/blueprint" name="AOSP-12/build_blueprint" revision="12" remote="vm" />
+  <!--project path="device/custom/sepolicy" name="AOSP-12/device_custom_sepolicy" revision="12" remote="vm" /-->
+  <project path="vendor/aosp" name="AOSP-12/vendor_aosp" revision="12" remote="vm" />
+  <!--project path="vendor/support" name="AOSP-12/vendor_support" revision="12" remote="vm" /-->
 
   <!-- External repos -->
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" revision="master" remote="lineage" />
-  <project path="external/exfat" name="AOSP-11/external_exfat" revision="11" remote="github" />
-  <project path="external/external_ntfs-3g" name="AOSP-11/external_ntfs-3g" revision="11" remote="github" />
-  <project path="external/tinycompress" name="AOSP-11/external_tinycompress" revision="11" remote="github" />
+  <project path="external/exfat" name="AOSP-12/external_exfat" revision="12" remote="vm" />
+  <project path="external/external_ntfs-3g" name="AOSP-12/external_ntfs-3g" revision="12" remote="vm" />
+  <project path="external/tinycompress" name="AOSP-12/external_tinycompress" revision="12" remote="vm" />
 
   <!-- Hardware repos -->
-  <project path="hardware/custom/interfaces" name="AOSP-11/hardware_custom_interfaces" revision="11" remote="github" />
-  <project path="hardware/interfaces" name="AOSP-11/hardware_interfaces" revision="11" remote="github" />
-  <project path="hardware/libhardware" name="AOSP-11/hardware_libhardware" revision="11" remote="github" />
+  <project path="hardware/custom/interfaces" name="AOSP-12/hardware_custom_interfaces" revision="12" remote="vm" />
+  <project path="hardware/interfaces" name="AOSP-12/hardware_interfaces" revision="12" remote="vm" />
+  <project path="hardware/libhardware" name="AOSP-12/hardware_libhardware" revision="12" remote="vm" />
 
   <!-- Local_manifests -->
-  <project path="local_manifests" name="AOSP-11/local_manifests" revision="11" remote="github" >
+  <project path="local_manifests" name="AOSP-12/local_manifests" revision="12" remote="vm" >
     <linkfile src="sync.sh" dest="sync.sh" />
   </project>
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="AOSP-11/frameworks_av" revision="11" remote="github" />
-  <project path="frameworks/base" name="AOSP-11/frameworks_base" revision="11" remote="github" />
-  <project path="frameworks/native" name="AOSP-11/frameworks_native" revision="11" remote="github" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" revision="refs/tags/android-10.0.0_r46" />
-  <project path="frameworks/opt/net/wifi" name="AOSP-11/frameworks_opt_net_wifi" revision="11" remote="github" />
-  <project path="frameworks/opt/telephony" name="AOSP-11/frameworks_opt_telephony" revision="11" remote="github" />
+  <project path="frameworks/av" name="AOSP-12/frameworks_av" revision="12" remote="vm" />
+  <project path="frameworks/base" name="AOSP-12/frameworks_base" revision="12" remote="vm" />
+  <project path="frameworks/native" name="AOSP-12/frameworks_native" revision="12" remote="vm" />
+  <project path="frameworks/opt/net/wifi" name="AOSP-12/frameworks_opt_net_wifi" revision="12" remote="vm" />
+  <project path="frameworks/opt/telephony" name="AOSP-12/frameworks_opt_telephony" revision="12" remote="vm" />
 
   <!-- Prebuilts Repos -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r428724" name="AOSP-11/prebuilts_clang_host_linux-x86_clang-r428724" revision="11" remote="github" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r428724" name="AOSP-12/prebuilts_clang_host_linux-x86_clang-r428724" revision="12" remote="vm" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
@@ -94,33 +92,13 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="AOSP-11/packages_apps_Bluetooth" revision="11" remote="github" />
-  <project path="packages/apps/CarrierConfig" name="AOSP-11/packages_apps_CarrierConfig" revision="11" remote="github" />
-  <project path="packages/apps/DeskClock" name="AOSP-11/packages_apps_DeskClock" revision="11" remote="github" />
-  <project path="packages/apps/Dialer" name="AOSP-11/packages_apps_Dialer" revision="11" remote="github" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-10.0.0_r46" />
-  <project path="packages/apps/Etar" name="AOSP-11/packages_apps_Etar" revision="11" remote="github" />
-  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="lineage" />
-  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
-  <project path="packages/apps/Launcher3" name="AOSP-11/packages_apps_Launcher3" revision="11" remote="github" />
-  <project path="packages/apps/Nfc" name="AOSP-11/packages_apps_Nfc" revision="11" remote="github" />
-  <project path="packages/apps/Settings" name="AOSP-11/packages_apps_Settings" revision="11" remote="github" />
-  <project path="packages/apps/SettingsIntelligence" name="AOSP-11/packages_apps_SettingsIntelligence" revision="11" remote="github" />
-  <project path="packages/apps/ThemePicker" name="AOSP-11/packages_apps_ThemePicker" revision="11" remote="github" />
-  <project path="packages/apps/TouchGestures" name="AOSP-11/packages_apps_TouchGestures" revision="11" remote="github" />
-  <project path="packages/apps/UnifiedEmail" name="AOSP-11/packages_apps_UnifiedEmail" revision="11" remote="github" />
 
   <!-- Recovery Repos -->
-  <project path="bootable/recovery" name="AOSP-11/bootable_recovery" revision="11" remote="github" />
+  <project path="bootable/recovery" name="AOSP-12/bootable_recovery" revision="12" remote="vm" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="AOSP-11/system_bt" revision="11" remote="github" />
-  <project path="system/core" name="AOSP-11/system_core" revision="11" remote="github" />
-  <project path="system/vold" name="AOSP-11/system_vold" revision="11" remote="github" />
-  <project path="system/sepolicy" name="AOSP-11/system_sepolicy" revision="11" remote="github" />
-  <project path="system/update_engine" name="AOSP-11/system_update_engine" revision="11" remote="github" />
-
-  <!-- vendor apps -->
-  <project path="vendor/apps/FaceUnlock" name="vendor_apps_FaceUnlock" revision="11" remote="gitea" />
+  <project path="system/core" name="AOSP-12/system_core" revision="12" remote="vm" />
+  <project path="system/vold" name="AOSP-12/system_vold" revision="12" remote="vm" />
+  <project path="system/sepolicy" name="AOSP-12/system_sepolicy" revision="12" remote="vm" />
 
 </manifest>

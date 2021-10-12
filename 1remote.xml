@@ -7,4 +7,6 @@
           revision="lineage-18.1" />
   <remote name="gitea"
           fetch="https://gitea.com/sbwml" />
+  <remote name="vm"
+          fetch="https://vm.cooluc.com/" />
 </manifest>

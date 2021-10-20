@@ -51,12 +51,6 @@
   <remove-project name="kernel/prebuilts/4.19/arm64" />
   <remove-project name="kernel/tests" />
   <remove-project name="device/linaro/poplar-kernel" />
-  <!--remove-project name="device/google/barbet" />
-  <remove-project name="device/google/barbet-kernel" />
-  <remove-project name="device/google/barbet-sepolicy" />
-  <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_prebuilts" />
-  <remove-project name="device/google/redbull-kernel" /-->
 
   <!-- General repos -->
   <remove-project name="platform/bionic" />

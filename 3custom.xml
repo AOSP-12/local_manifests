@@ -100,6 +100,7 @@
   <project path="system/bt" name="AOSP-12/system_bt" revision="12" remote="vm" />
   <project path="system/core" name="AOSP-12/system_core" revision="12" remote="vm" />
   <project path="system/vold" name="AOSP-12/system_vold" revision="12" remote="vm" />
+  <project path="system/security" name="AOSP-12/system_security" revision="12" remote="vm" />
   <project path="system/sepolicy" name="AOSP-12/system_sepolicy" revision="12" remote="vm" />
 
 </manifest>

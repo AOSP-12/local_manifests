@@ -92,6 +92,7 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
 
   <!-- Recovery Repos -->
   <project path="bootable/recovery" name="AOSP-12/bootable_recovery" revision="12" remote="github" />

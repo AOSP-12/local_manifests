@@ -105,7 +105,6 @@
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Packages repos -->
-  <remove-project name="platform/packages/apps/Browser2" />
 
   <!-- Prebuilts Repos -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />

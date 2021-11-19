@@ -55,7 +55,6 @@
   <!-- General repos -->
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
-  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
 
   <!-- Hardware repos -->
@@ -101,10 +100,9 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Packages repos -->
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
 
   <!-- Prebuilts Repos -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -116,7 +114,6 @@
   <remove-project name="platform/bootable/recovery" />
 
   <!-- System Repos -->
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/security" />
